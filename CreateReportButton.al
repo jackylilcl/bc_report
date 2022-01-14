@@ -1,4 +1,4 @@
-pageextension <Your New Report Number> ExtendNavigationArea6 extends <"Your Target Page Name">
+pageextension <Your New Report Number> ExtendNavigationArea<last nnumber of new erport number> extends <"Your Target Page Name">
 {
     actions
     {
@@ -16,7 +16,7 @@ pageextension <Your New Report Number> ExtendNavigationArea6 extends <"Your Targ
 
                     begin
 
-                        Report.Run(<Your Report Number>);
+                        Report.Run(<Past Report Number>);
 
                     end;
 
