@@ -1,4 +1,4 @@
-pageextension <Your New Report Number> ExtendNavigationArea<last nnumber of new erport number> extends <"Your Target Page Name">
+pageextension <Your New Report Number> ExtendNavigationArea<last nnumber of new erport number> extends "<Your Target Page Name>"
 {
     actions
     {
@@ -9,7 +9,7 @@ pageextension <Your New Report Number> ExtendNavigationArea<last nnumber of new 
                 Caption = 'Reports';
                 Image = "Report";
 
-                action(<"Your Report Name">) 
+                action("<Your Report Name>") 
 
                 {
                     trigger OnAction()
