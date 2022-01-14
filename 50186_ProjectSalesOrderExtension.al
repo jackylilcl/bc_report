@@ -1,4 +1,4 @@
-pageextension <Your New Extension Number> ExtendNavigationArea6 extends <"Your Target Page Name">
+pageextension <Your New Report Number> ExtendNavigationArea6 extends <"Your Target Page Name">
 {
     actions
     {
@@ -9,7 +9,7 @@ pageextension <Your New Extension Number> ExtendNavigationArea6 extends <"Your T
                 Caption = 'Reports';
                 Image = "Report";
 
-                action(<"Your Report Name">")
+                action(<"Your Report Name2">") 
 
                 {
                     trigger OnAction()
