@@ -9,7 +9,7 @@ pageextension <Your New Report Number> ExtendNavigationArea6 extends <"Your Targ
                 Caption = 'Reports';
                 Image = "Report";
 
-                action(<"Your Report Name2">") 
+                action(<"Your Report Name">) 
 
                 {
                     trigger OnAction()
